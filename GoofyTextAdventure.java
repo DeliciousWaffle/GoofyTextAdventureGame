@@ -18,7 +18,7 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 
-public class GraphAdventure {
+public class GoofyTextAdventure {
 
     // kind of a mess because I need access to these variables across the program
     private static Scanner fileReader;
@@ -115,7 +115,7 @@ public class GraphAdventure {
     
         LinkedBinaryTree<StoryNode> story = new LinkedBinaryTree<>();
         
-        String currentStory = "The year is 2069. Due to an ever increasing population, Earth's resources have become limited. The United States and China are currently on the brink of nuclear war. Climate change has reshaped Earth's geography for the worst. The future does not sound fun. You are lowly programmer on a mission to make the world a better place. With fast typing skills and a mountain of student loans, you are determined to make your dream a reality. You are currently asleep, dreaming about bogosort. Suddenly, you hear the sound of sirens. These are scary, legit sirens too. Do you go back to sleep or get up and check things out?";
+        String currentStory = "The year is 2070. Due to an ever increasing population, Earth's resources have become limited. The United States and China are currently on the brink of nuclear war. Climate change has reshaped Earth's geography for the worst. The future does not sound fun. You are lowly programmer on a mission to make the world a better place. With fast typing skills and a mountain of student loans, you are determined to make your dream a reality. You are currently asleep, dreaming about bogosort. Suddenly, you hear the sound of sirens. These are scary, legit sirens too. Do you go back to sleep or get up and check things out?";
         p = story.addRoot(new StoryNode(currentStory, "sleep", "wake", "none"));
       
         currentStory = "For whatever reason, you decide to stay in bed. That bogosort dream must have been tantalizing. Sadly, the sirens are too deafening and you have trouble falling back asleep. Your phone gets blown up with messages saying to seek shelter immediately. This can't be good. You get out of bed, but have the sudden urge to make coffee. You know this is a bad idea and should seek shelter, but the urge is strong. Do you make coffee or seek shelter?";
